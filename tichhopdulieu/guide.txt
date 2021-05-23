@@ -1,0 +1,5 @@
+http://localhost:8080/api/page : list all
+http://localhost:8080/api/job	: detail job
+http://localhost:8080/api/criteria	: filter 1 chỉ tiêu
+http://localhost:8080/api/criteria2	: filter 2 chỉ tiêu
+http://localhost:8080/api/criteria3	: filter 3 chỉ tiêu

@@ -1,0 +1,92 @@
+.header {
+    width: 100%;
+    min-height: 120px;
+    background-color: burlywood;
+    padding: 30px;
+    position: sticky;
+    top: 0px;
+}
+
+.styleSearch {
+    height: 40px;
+    margin: 20px;
+}
+
+.background {
+    background-color: white;
+}
+
+.item {
+    border: 1px solid burlywood;
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    padding: 30px;
+}
+
+.nameJob {
+    font-size: 25px;
+    font-weight: 500;
+    width: 70%;
+}
+
+.companyJob {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.jobdetail {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 300px;
+    flex-wrap: wrap;
+}
+
+.jobdetail div {
+    flex-basis: 33%;
+    background-color: white;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: rgb(107, 103, 103);
+}
+
+.tt {
+    margin: 5px;
+    font-size: 23px;
+    font-weight: 500;
+    color: rgb(121, 117, 117);
+    width: 100%;
+}
+
+.des p {
+    font-weight: 400;
+    width: 70%;
+    text-overflow: ellipsis;
+}
+
+.icons {
+    margin-left: 5px;
+}
+
+.rer {
+    margin-left: 5px;
+}
+
+.tt {
+    margin-top: 30px;
+}
+
+.map {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 100px;
+    color: rgb(238, 13, 137);
+}
+
+.link {
+    margin-left: 10px;
+    color: rgb(238, 13, 137);
+}

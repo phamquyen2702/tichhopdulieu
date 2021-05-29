@@ -31,20 +31,14 @@ public class JobService {
 		return jobInfoRepository.findById(id);
 	}
 
-	public List<JobInfo> findByCriteria(String criteria, String value, int start, int offset) {
-		return customRP.findByCriteria(criteria, value, start, offset);
+//	public List<JobInfo> findBy3Criteria(String criteria1, String criteria2, String criteria3, String value1,
+//			String value2, String value3, int start, int offset) {
+//		return customRP.findBy3Criteria(criteria1, criteria2, criteria3, value1, value2, value3, start, offset);
+//
+//	}
 
-	}
-
-	public List<JobInfo> findBy2Criteria(String criteria1, String criteria2, String value1, String value2, int start,
-			int offset) {
-		return customRP.findBy2Criteria(criteria1, criteria2, value1, value2, start, offset);
-
-	}
-
-	public List<JobInfo> findBy3Criteria(String criteria1, String criteria2, String criteria3, String value1,
-			String value2, String value3, int start, int offset) {
-		return customRP.findBy3Criteria(criteria1, criteria2, criteria3, value1, value2, value3, start, offset);
+	public List<JobInfo> findBy3Criteria(String value1, String value2, String value3, int start, int offset) {
+		return customRP.findBy3Criteria(value1, value2, value3, start, offset);
 
 	}
 
@@ -52,4 +46,14 @@ public class JobService {
 		return jobInfoRepository.findByJobName(jobName);
 
 	}
+
+	public int count(String criteria1, String criteria2, String criteria3, String value1, String value2,
+			String value3) {
+		return customRP.count3Criteria(criteria1, criteria2, criteria3, value1, value2, value3);
+	}
+
+//	public List<String> findAllTypeJob() {
+//		return jobInfoRepository.findAll();
+//	}
+
 }
